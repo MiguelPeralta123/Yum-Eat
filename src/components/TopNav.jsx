@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { AiOutlineMenu, AiOutlineSearch, AiOutlineClose, AiFillTag } from 'react-icons/ai'
+import { AiOutlineMenu, AiOutlineSearch, AiOutlineClose } from 'react-icons/ai'
 import { BsFillCartFill, BsPerson } from 'react-icons/bs'
 import { TbTruckReturn } from 'react-icons/tb'
 import { FaGoogleWallet } from 'react-icons/fa'
@@ -7,7 +7,7 @@ import { MdHelp, MdOutlineFavorite } from 'react-icons/md'
 
 const TopNav = () => {
 
-    const [sideNav, setSideNav] = useState(true);
+    const [sideNav, setSideNav] = useState(false);
 
     return (
         <div className='max-w-[1520px] mx-auto flex justify-between items-center p-4'>
