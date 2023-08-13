@@ -12,7 +12,7 @@ const Delivery = () => {
                     <p>
                         Lorem ipsum irure ullamco mollit ad incididunt labore id aute irure deserunt ad excepteur veniam. Irure elit minim sit et esse deserunt exercitation exercitation commodo ex nostrud duis enim eu. Dolore dolore quis deserunt non dolor nostrud officia eiusmod. Mollit adipisicing non excepteur dolor quis tempor elit minim veniam. Do fugiat enim consequat ipsum est commodo incididunt ex in proident irure id. Sunt tempor velit proident dolor labore exercitation ipsum amet. Ad dolor eu ipsum laborum nulla occaecat pariatur laborum veniam est.
                     </p>
-                    <button className='bg-black text-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3 hover:scale-105 ease-out duration-200'>Get Started</button>
+                    <button className='bg-black text-white w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3 hover:scale-105 ease-out duration-200'>Get Started</button>
                 </div>
             </div>
         </div>

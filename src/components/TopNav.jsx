@@ -28,15 +28,15 @@ const TopNav = () => {
                 <input className='bg-transparent p-2 w-full focus:outline-none' type='text'
                     placeholder='Search meals' />
             </div>
-            <button className='bg-orange-700 text-white hidden md:flex items-center py-2 rounded-full font-bold'>
+            <button className='bg-orange-700 text-white border-none hidden md:flex items-center py-2 rounded-full font-bold hover:scale-105 ease-out duration-200'>
                 <BsFillCartFill className='pr-2' size={25} /> Cart
             </button>
 
-            {/* When the side menu button is clicked, the manu appears and the rest of the screen turns dark. 
-            When it´s clicked again, the menu hides and the screen turns light */}
+            {/* When the side menu button is clicked, the menu appears and the rest of the screen turns darker. 
+            When it´s clicked again, the menu hides and the screen turns lighter */}
             {sideNav ?
-                (<div className='bg-black/70 fixed w-full h-screen z-10 top-0 left-0' 
-                onClick={() => setSideNav(!sideNav)}></div>)
+                (<div className='bg-black/70 fixed w-full h-screen z-10 top-0 left-0'
+                    onClick={() => setSideNav(!sideNav)}></div>)
                 : ('')}
 
             <div className={sideNav ?
