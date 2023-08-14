@@ -70,7 +70,7 @@ export const topPicks = [
 
 export const mealData = [
   {
-    id: 5,
+    id: 1,
     name: 'Cheeseless pizza',
     category: 'pizza',
     image:
@@ -78,7 +78,7 @@ export const mealData = [
     price: '$200',
   },
   {
-    id: 6,
+    id: 2,
     name: 'Supreme Pizza',
     category: 'pizza',
     image:
@@ -86,7 +86,7 @@ export const mealData = [
     price: '$300',
   },
   {
-    id: 7,
+    id: 3,
     name: 'Pepperoni pizza',
     category: 'pizza',
     image:
@@ -94,7 +94,7 @@ export const mealData = [
     price: '$100',
   },
   {
-    id: 8,
+    id: 4,
     name: 'Cheese Pizza',
     category: 'pizza',
     image:
@@ -102,7 +102,7 @@ export const mealData = [
     price: '$140',
   },
   {
-    id: 8,
+    id: 5,
     name: 'African Salad',
     category: 'salad',
     image:
@@ -110,7 +110,7 @@ export const mealData = [
     price: '$140',
   },
   {
-    id: 9,
+    id: 6,
     name: 'Kale Salad',
     category: 'salad',
     image:
@@ -118,7 +118,7 @@ export const mealData = [
     price: '$300',
   },
   {
-    id: 10,
+    id: 7,
     name: 'Ceasar Salad',
     category: 'salad',
     image:
@@ -126,7 +126,7 @@ export const mealData = [
     price: '$300',
   },
   {
-    id: 11,
+    id: 8,
     name: 'Loaded Salad',
     category: 'salad',
     image:
@@ -134,7 +134,7 @@ export const mealData = [
     price: '$200',
   },
   {
-    id: 12,
+    id: 9,
     name: 'Chiken Shawarma',
     category: 'chicken',
     image:
@@ -142,7 +142,7 @@ export const mealData = [
     price: '$100',
   },
   {
-    id: 13,
+    id: 10,
     name: 'Wings',
     category: 'chicken',
     image:
@@ -150,7 +150,7 @@ export const mealData = [
     price: '$100',
   },
   {
-    id: 14,
+    id: 11,
     name: 'Roasted Chicken',
     category: 'chicken',
     image:
@@ -158,7 +158,7 @@ export const mealData = [
     price: '$300',
   },
   {
-    id: 15,
+    id: 12,
     name: 'Chicken Tenders',
     category: 'chicken',
     image:

@@ -45,7 +45,7 @@ const Meal = () => {
                 {
                     foods.map(item => {
                         return (
-                            <div className='border-none hover:scale-105 ease-out duration-200'>
+                            <div key={item.id} className='border-none hover:scale-105 ease-out duration-200'>
                                 <img className='w-full h-[200px] object-cover rounded-lg' src={item.image}
                                     alt={item.name} />
                                 <div className='flex justify-between py-4 px-2'>
