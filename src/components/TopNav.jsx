@@ -32,8 +32,7 @@ const TopNav = () => {
                 <BsFillCartFill className='pr-2' size={25} /> Cart
             </button>
 
-            {/* When the side menu button is clicked, the menu appears and the rest of the screen turns darker. 
-            When it´s clicked again, the menu hides and the screen turns lighter */}
+            {/* When the side menu button is clicked, the menu appears, when it´s clicked again, it hides */}
             {sideNav ?
                 (<div className='bg-black/70 fixed w-full h-screen z-10 top-0 left-0'
                     onClick={() => setSideNav(!sideNav)}></div>)
@@ -49,24 +48,24 @@ const TopNav = () => {
                 <h2 className='text-2xl p-4'>Yum<span className='text-orange-700 font-bold'>Eats</span></h2>
 
                 <nav>
-                    <ul className='flex flex-col p-4 text-gray-900'>
-                        <li className='flex text-xl py-4'>
+                    <ul className='flex flex-col py-4 text-gray-900'>
+                        <li className='flex text-xl pl-4 py-4 hover:bg-gray-200'>
                             <BsPerson className='bg-black text-white mr-4 rounded-full' size={25} />
                             Account
                         </li>
-                        <li className='flex text-xl py-4'>
+                        <li className='flex text-xl pl-4 py-4 hover:bg-gray-200'>
                             <TbTruckReturn className='bg-black text-white mr-4 rounded-full' size={25} />
                             Delivery
                         </li>
-                        <li className='flex text-xl py-4'>
+                        <li className='flex text-xl pl-4 py-4 hover:bg-gray-200'>
                             <MdOutlineFavorite className='bg-black text-white mr-4 rounded-full' size={25} />
                             Favorites
                         </li>
-                        <li className='flex text-xl py-4'>
+                        <li className='flex text-xl pl-4 py-4 hover:bg-gray-200'>
                             <FaGoogleWallet className='bg-black text-white mr-4 rounded-full' size={25} />
                             Wallet
                         </li>
-                        <li className='flex text-xl py-4'>
+                        <li className='flex text-xl pl-4 py-4 hover:bg-gray-200'>
                             <MdHelp className='bg-black text-white mr-4 rounded-full' size={25} />
                             Help
                         </li>

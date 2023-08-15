@@ -8,7 +8,7 @@ const Footer = () => {
                 <div>
                     <h1 className='w-full pb-2 text-3xl text-white'>Yum<span className='text-orange-700 font-bold'>Eats</span></h1>
                     <p>
-                        In exercitation dolore anim proident pariatur ad id nulla adipisicing qui elit eu. Quis aliqua enim magna officia ea pariatur in commodo esse consectetur deserunt exercitation laborum. Nisi amet amet id fugiat exercitation.
+                        Lorem ipsum in exercitation dolore anim proident pariatur ad id nulla adipisicing qui elit eu. Quis aliqua enim magna officia ea pariatur in commodo esse consectetur deserunt exercitation laborum. Nisi amet amet id fugiat exercitation.
                     </p>
                     <div className='flex justify-between md:w-[75%] mt-8 mb-2'>
                         <FaFacebookSquare className='hover:cursor-pointer' size={40} />
@@ -19,7 +19,7 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div className='lg:col-span-2 flex justify-between ml-12 mt-8'>
+                <div className='lg:col-span-2 flex justify-between lg:ml-12 mt-8'>
                     <div>
                         <h6 className='font-bold text-[#9b9b9b] pb-2'>Location</h6>
                         <ul>

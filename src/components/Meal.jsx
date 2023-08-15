@@ -13,11 +13,11 @@ const Meal = () => {
     }
 
     return (
-        <div className='max-w-[1520px] m-auto px-4 py-12'>
+        <div className='max-w-[1520px] m-auto px-8 pb-12 lg:px-4'>
             <h1 className='text-orange-500 font-bold text-2xl text-center py-4'>Our Meals</h1>
 
             <div className='flex flex-col md:flex-row justify-center'>
-                <div className='flex justify-center'>
+                <div className='flex justify-center py-1'>
                     <button
                         className='mx-1 mb-5 bg-orange-700 text-white border-orange-700 hover:bg-white hover:text-orange-700 hover:scale-105 ease-out duration-200'
                         onClick={() => setFoods(mealData)}>

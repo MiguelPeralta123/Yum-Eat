@@ -8,8 +8,8 @@ import '@splidejs/react-splide/css';
 const TopPicks = () => {
     return (
         <>
-            <h1 className='hidden lg:flex justify-center text-orange-500 font-bold text-2xl text-center'>Top Picks</h1>
-            <div className='hidden lg:flex max-w-[1520px] m-auto p-2'>
+            <h1 className='hidden lg:flex justify-center lg:pb-4 text-orange-500 font-bold text-2xl text-center'>Top Picks</h1>
+            <div className='hidden lg:flex max-w-[1520px] m-auto lg:p-2 lg:pb-12'>
                 <Splide options={{perPage: 4, gap:"0.5rem", drag:'free', arrows:false}}>
                     {
                         topPicks.map(item => {
