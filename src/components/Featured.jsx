@@ -35,7 +35,7 @@ const Featured = () => {
     }
 
     return (
-        <div className='relative max-w-[1520px] w-full h-[400px] px-4 pb-4 group'>
+        <div className='relative max-w-[1520px] w-full h-[400px] mx-auto px-4 pb-4 group'>
             <div className='w-full h-full rounded-2xl bg-center bg-cover duration-500'
                 style={{ backgroundImage: `url(${slides[currentIndex].url})` }}>
             </div>
